@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
@@ -278,16 +278,16 @@ jPanel2.add(edtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 4
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void edtUsernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edtUsernameActionPerformed
+    private void edtUsernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
         // TODO add your handling code here:
-    }//GEN-LAST:event_edtUsernameActionPerformed
+    }//GEN-LAST:REDACTED
 
-    private void btnRegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegisterActionPerformed
+    private void btnRegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
 RegisterPage registerPage = new RegisterPage();
 registerPage.setVisible(true);
 registerPage.setLocationRelativeTo(null); // center window
 this.dispose(); // close login page        // TODO add your handling code here:
-    }//GEN-LAST:event_btnRegisterActionPerformed
+    }//GEN-LAST:REDACTED
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
        String email = edtUsername.getText().trim();  
@@ -347,7 +347,7 @@ try {
          System.exit(0);
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void jButtonForgotActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonForgotActionPerformed
+    private void jButtonForgotActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
         // TODO add your handling code here:
         
         
@@ -358,11 +358,11 @@ try {
     
     this.dispose();
         
-    }//GEN-LAST:event_jButtonForgotActionPerformed
+    }//GEN-LAST:REDACTED
 
-    private void edtPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edtPasswordActionPerformed
+    private void edtPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
         // TODO add your handling code here:
-    }//GEN-LAST:event_edtPasswordActionPerformed
+    }//GEN-LAST:REDACTED
 
     public static void main(String args[]) {
        
@@ -377,7 +377,7 @@ try {
                     break;
                 }
             }
-        } catch (ReflectiveOperationException | javax.swing.UnsupportedLookAndFeelException ex) {
+        } catch (ReflectiveOperationException | javax.swing.REDACTED ex) {
             logger.log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
@@ -407,3 +407,4 @@ try {
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
 }
+

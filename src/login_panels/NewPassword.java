@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
@@ -69,7 +69,7 @@ public class NewPassword extends javax.swing.JFrame {
         btnConfirmChange.setText("Confim Change");
         btnConfirmChange.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnConfirmChangeActionPerformed(evt);
+                REDACTED(evt);
             }
         });
         jPanel2.add(btnConfirmChange, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 570, 300, 40));
@@ -98,7 +98,7 @@ public class NewPassword extends javax.swing.JFrame {
         edtConfirmPassword.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(0, 0, 0)));
         edtConfirmPassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edtConfirmPasswordActionPerformed(evt);
+                REDACTED(evt);
             }
         });
         jPanel2.add(edtConfirmPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 490, 290, 40));
@@ -124,7 +124,7 @@ public class NewPassword extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnConfirmChangeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConfirmChangeActionPerformed
+    private void REDACTED(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
         
         
          String newPass = new String(edtNewPassword.getPassword());
@@ -166,20 +166,20 @@ public class NewPassword extends javax.swing.JFrame {
     }
         
 
-    }//GEN-LAST:event_btnConfirmChangeActionPerformed
+    }//GEN-LAST:REDACTED
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         System.exit(0);
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void edtNewPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edtNewPasswordActionPerformed
+    private void edtNewPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
         // TODO add your handling code here:
-    }//GEN-LAST:event_edtNewPasswordActionPerformed
+    }//GEN-LAST:REDACTED
 
-    private void edtConfirmPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edtConfirmPasswordActionPerformed
+    private void REDACTED(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
         // TODO add your handling code here:
-    }//GEN-LAST:event_edtConfirmPasswordActionPerformed
+    }//GEN-LAST:REDACTED
 
     /**
      * @param args the command line arguments
@@ -197,7 +197,7 @@ public class NewPassword extends javax.swing.JFrame {
                     break;
                 }
             }
-        } catch (ReflectiveOperationException | javax.swing.UnsupportedLookAndFeelException ex) {
+        } catch (ReflectiveOperationException | javax.swing.REDACTED ex) {
             logger.log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
@@ -218,3 +218,4 @@ public class NewPassword extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
 }
+

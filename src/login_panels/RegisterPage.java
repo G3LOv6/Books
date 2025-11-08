@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
@@ -27,7 +27,7 @@ import javax.swing.JOptionPane;
 public class RegisterPage extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(RegisterPage.class.getName());
-    private void jButtonBackToLoginActionPerformed(java.awt.event.ActionEvent evt) {                                                
+    private void REDACTED(java.awt.event.ActionEvent evt) {                                                
     LoginPage loginPage = new LoginPage();
     loginPage.setVisible(true);
     loginPage.setLocationRelativeTo(null); // center window
@@ -354,13 +354,13 @@ jPanel2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
+    }//GEN-LAST:REDACTED
 
-    private void registerButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registerButtonActionPerformed
+    private void registerButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
         // TODO add your handling code here:
-    }//GEN-LAST:event_registerButtonActionPerformed
+    }//GEN-LAST:REDACTED
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
@@ -371,28 +371,28 @@ jPanel2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
         System.exit(0);
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void jButtonForgotActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonForgotActionPerformed
+    private void jButtonForgotActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
      
          FPasswordPage forgotPage = new FPasswordPage();
     forgotPage.setVisible(true);
     forgotPage.setLocationRelativeTo(null);
     this.dispose();
         
-    }//GEN-LAST:event_jButtonForgotActionPerformed
+    }//GEN-LAST:REDACTED
 
-    private void sUsernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sUsernameActionPerformed
+    private void sUsernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
         // TODO add your handling code here:
-    }//GEN-LAST:event_sUsernameActionPerformed
+    }//GEN-LAST:REDACTED
 
-    private void loginButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginButtonActionPerformed
+    private void loginButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
         // TODO add your handling code here:
         LoginPage loginPage = new LoginPage();
 loginPage.setVisible(true);
 loginPage.setLocationRelativeTo(null); // center window
 this.dispose(); // close register page
-    }//GEN-LAST:event_loginButtonActionPerformed
+    }//GEN-LAST:REDACTED
 
-    private void SignupbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SignupbtnActionPerformed
+    private void SignupbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
        
       String email = sUsername.getText().trim();  
  
@@ -469,7 +469,7 @@ try {
 }
         
         
-    }//GEN-LAST:event_SignupbtnActionPerformed
+    }//GEN-LAST:REDACTED
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
@@ -493,7 +493,7 @@ try {
                     break;
                 }
             }
-        } catch (ReflectiveOperationException | javax.swing.UnsupportedLookAndFeelException ex) {
+        } catch (ReflectiveOperationException | javax.swing.REDACTED ex) {
             logger.log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
@@ -533,3 +533,4 @@ try {
     private javax.swing.JPasswordField scPassword;
     // End of variables declaration//GEN-END:variables
 }
+

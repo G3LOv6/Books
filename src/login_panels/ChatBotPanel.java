@@ -1,4 +1,4 @@
-package login_panels;
+﻿package login_panels;
 
 /**
  * Restored ChatBotPanel (sanitized).
@@ -29,3 +29,4 @@ public class ChatBotPanel {
 
     // Add chatbot integration methods below; ensure no secrets are hard-coded.
 }
+

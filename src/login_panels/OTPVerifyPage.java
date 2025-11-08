@@ -1,4 +1,4 @@
-
+﻿
 package login_panels;
 import javax.swing.JOptionPane;
 
@@ -95,7 +95,7 @@ private String email;
         });
         jPanel2.add(Resend, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 540, 170, 20));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login_panels/OTP (1) (1)-fotor-bg-remover-20251026151025 (1).png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login_panels/OTP (1) (1)REDACTED (1).png"))); // NOI18N
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -114,7 +114,7 @@ private String email;
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnVerifyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVerifyActionPerformed
+    private void btnVerifyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:REDACTED
        
                                              
         String enteredOtp = edtOTP.getText().trim();
@@ -149,7 +149,7 @@ private String email;
         
         
         
-    }//GEN-LAST:event_btnVerifyActionPerformed
+    }//GEN-LAST:REDACTED
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
@@ -189,7 +189,7 @@ private String email;
                     break;
                 }
             }
-        } catch (ReflectiveOperationException | javax.swing.UnsupportedLookAndFeelException ex) {
+        } catch (ReflectiveOperationException | javax.swing.REDACTED ex) {
             logger.log(java.util.logging.Level.SEVERE, null, ex);
         }
         
@@ -208,3 +208,4 @@ private String email;
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
 }
+
