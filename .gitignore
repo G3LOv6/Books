@@ -1,0 +1,79 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+/target/
+
+# Gradle
+/.gradle/
+
+# NetBeans
+/nbproject/private/
+/nbproject/private
+/build/
+/dist/
+/nbproject/private/
+nbproject/private/
+
+# IDEs
+/.idea/
+/.vscode/
+*.iml
+
+# OS files
+*.db
+
+# Local libs (if you store jars locally)
+/lib/
+
+# Generated files
+/startup-log.txt
+# Java / NetBeans / IDE ignores
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+nbbuild/
+nbdist/
+nbdist/*
+private/
+
+# Maven
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Local libraries
+lib/
+
+# Generated files
+manifest.mf
+
